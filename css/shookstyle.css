@@ -25,6 +25,7 @@ h3 {
 }
 p {
   font-size: 1.5em;
+  padding: .75em;
 }
 
 /* Header */
@@ -101,6 +102,7 @@ header .logo img {
   background: #FFFFFF;
   position: relative;
   z-index: 1;
+  margin-bottom: 8em;
 }
 .summary h2 {
   transform: rotate(-4deg);
@@ -143,21 +145,104 @@ header .logo img {
 /* competitive-analysis */
 .competitive-analysis {
   background: #FFFFFF;
+  margin-bottom: 5em;
+  position: relative;
 }
-
+table {
+  border-collapse: collapse;
+  margin: 0 10%;
+}
+table, th, td {
+  border: 1px solid black;
+  vertical-align: center;
+}
+th {
+  height: 2em;
+  width: 20%;
+}
+td {
+  padding: .5em;
+}
 /* user-stories */
 .user-stories {
   background: #FFFC00;
+  position: relative;
+  z-index: 1;
 }
 .user-stories img{
   width: 47%;
 }
-
-/* wireframes */
-.wireframes img{
-  width: 100%;
+.user-stories h2 {
+  transform: rotate(-4deg);
+  color: #5AD8D8;
+}
+.user-stories:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-4deg);
+  transform-origin: 0%;
+  z-index: -1;
 }
 
+/* wireframes */
+.wireframes {
+  background-image:url("../images/shook_img/DonateSketches.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right top;
+  background-clip: padding-box;
+}
+.wireframes .one-half {
+  margin: 3em;
+  background-color: #FFFFFF;
+}
+.lowfi-wireframes img{
+  display: inline-block;
+  width: 90%;
+  margin: 5%;
+}
+.hifi-wireframes {
+  background-color: #5AD8D8;
+  position: relative;
+  z-index: 1;
+}
+.hifi-wireframes img {
+  width: 15%;
+  padding: 0;
+  margin: 1.5%;
+}
+.hifi-wireframes:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+.hifi-wireframes:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 0%;
+  z-index: -1;
+}
 /* Button */
 .btn {
   border-radius: 8px;
