@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans:300,400" rel='stylesheet' type='text/css'>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/shookstyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
@@ -43,7 +43,7 @@
         </div>
     </section>
 
-    <section class="summary">
+    <section class="container summary">
         <h2>Summary</h2>
         <p>The world is stressful. People want to do something about it,
           but their lives are busy.  Shook is an iPhone app to make donations
@@ -56,15 +56,39 @@
     </section>
 
     <section class="survey-highlights">
-        <h2>Research</h2>
-        <h3>Survey Highlights</h3>
-        <p>93% of respondents mentioned being inspired into action after reading the news resulting most frequently in donation charities or signing a petition.</p>
-        <p>87% most often make contributions through a charity's website</p>
-        <p><strong>Likes:</strong>Easy to put in credit card information</p>
-        <p><strong>Dislikes:</strong>Ending up on email or phone lists<br>Clunky user flows<br>How long it takes to fill in credit card information</p>
+        <div class="container">
+            <h2>Research</h2>
+            <h3>Survey Highlights</h3>
+            <table class="survey-results">
+                <tr>
+                    <td><span class="highlight">93%</span></td>
+                    <td>of respondents mentioned being inspired into action after reading the news resulting most frequently in donation charities or signing a petition.</td>
+                </tr>
+                <tr>
+                    <td><span class="highlight">87%</span></td>
+                    <td>most often make contributions through a charity's website</td>
+            </table>
+            <table>
+                <tr>
+                  <td><span class="bold">Likes:</span></td>
+                  <td>Easy to put in credit card information</td>
+                </tr>
+                <tr>
+                  <td><span class="bold">Dislikes:</span></td>
+                  <td>
+                      <ul>
+                          <li>Ending up on email or phone lists</li>
+                          <li>Clunky user flows</li>
+                          <li>How long it takes to fill in credit card information</li>
+                      </ul>
+                  </td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <section class="competitive-analysis">
+      <div class="container">
         <h3>Competitive Analysis</h3>
         <table>
             <tr>
@@ -74,7 +98,7 @@
                 <th>One Today</th>
             </tr>
             <tr>
-                <td><strong>Strengths</strong></td>
+                <td><span class="bold">Strengths</span></td>
                 <td>
                     <ul>
                         <li>Helping Children</li>
@@ -106,7 +130,7 @@
                 </td>
             </tr>
             <tr>
-                <td><strong>Weaknesses</strong></td>
+                <td><span class="bold">Weaknesses</span></td>
                 <td>
                     <ul>
                         <li>No reason to donate more than once</li>
@@ -130,7 +154,7 @@
                 </td>
             </tr>
             <tr>
-                <td><strong>Opportunities</strong></td>
+                <td><span class="bold">Opportunities</span></td>
                 <td>
                     <ul>
                         <li>Simplicity (less pages)</li>
@@ -152,11 +176,11 @@
                 </td>
             </tr>
             <tr>
-                <td><strong>Threats</strong></td>
+                <td><span class="bold">Threats</span></td>
                 <td>
                     <ul>
                         <li>Plays to the heart</li>
-                        <li>MReally good project pages</li>
+                        <li>Project pages</li>
                     </ul>
                 </td>
                 <td>
@@ -171,23 +195,28 @@
                 </td>
             </tr>
         </table>
+      </div>
     </section>
 
     <section class="user-stories">
-        <h2>Design</h2>
-        <div class="one-half">
-            <h3>User Stories/User Flows</h3>
-            <p>I created user stories to define what the different paths that people w=might ware to use with the app and from those created User Flows.</p>
-        </div>
-        <div>
-            <img src="images/shook_img/DonationUserFlows.png" alt="user flow">
+        <div class="container">
+            <h2>Design</h2>
+            <div class="one-half">
+                <h3>User Stories/User Flows</h3>
+                <p>I created user stories to define what the different paths that people w=might ware to use with the app and from those created User Flows.</p>
+            </div>
+            <div>
+                <img src="images/shook_img/DonationUserFlows.png" alt="user flow">
+            </div>
         </div>
     </section>
 
     <section class="wireframes">
-        <div class="one-half">
-            <h3>Wireframes</h3>
-            <p>My wireframes incorporated the User Stories
+      <div class="sketch-background">
+        <div class="container">
+            <div class="one-half">
+                <h3>Wireframes</h3>
+                <p>My wireframes incorporated the User Stories
             and additional ideas I had along the way.  I incorporated
             the user stories into the
             wireframes, and wrote new ones as I puzzled
@@ -195,49 +224,79 @@
             app. It started off with sketches of any idea I could
             think of and ended with a card. My idea for
             making the donation happen... shake your phone to donate!</p>
+            </div>
         </div>
-        <div>
-        </div>
-        <div class="lowfi-wireframes">
+      </div>
+        <div class=" container lowfi-wireframes">
             <img src="images/shook_img/LowFiWireframes.png" alt="low fi wireframes">
         </div>
         <div class="hifi-wireframes">
-            <img src="images/shook_img/HiFi_LoadPage.png" alt="hifi loading">
-            <img src="images/shook_img/HiFi_SignIn.png" alt="hifi sign in">
-            <img src="images/shook_img/HiFi_SignUp.png" alt="hifi sign up">
-            <img src="images/shook_img/HiFi_DonationPage.png" alt="hifi donation option">
-            <img src="images/shook_img/HiFi_DonationPagePlain.png" alt="hifi donation option">
+            <div class="container">
+                <img src="images/shook_img/HiFi_LoadPage.png" alt="hifi loading">
+                <img src="images/shook_img/HiFi_SignIn.png" alt="hifi sign in">
+                <img src="images/shook_img/HiFi_SignUp.png" alt="hifi sign up">
+                <img src="images/shook_img/HiFi_DonationPage.png" alt="hifi donation option">
+                <img src="images/shook_img/HiFi_DonationPagePlain.png" alt="hifi donation option">
+            </div>
         </div>
     </section>
 
     <section class="branding">
-        <div class="one-half">
-            <h3>Branding</h3>
-            <p>The whole time while working on Wireframes and Prototypes,
+        <div class="container">
+            <div class="one-half">
+                <h3>Branding</h3>
+                <p>The whole time while working on Wireframes and Prototypes,
               I created a mood board which inspired colors, fonts and styles.
               I was drawn to bright colors that popped and felt young, and energetic.
               I especially picked up on the yellow block letters I was finding in
               news sites, and wanted to use that to some extent in the design.</p>
-            <br>
-            <p>I did many iterations of logos, and landed upon the shook logo
+                <br>
+                <p>I did many iterations of logos, and landed upon the shook logo
               where it looks like there may have been a printing error, or like
               the colors making up the logo are being shaken out.  The center o’s
               are also reminiscent of shockwaves.</p>
-        </div>
-        <div>
-            <img src="images/shook_img/brandingimage.png" alt="colors and logos">
+            </div>
+            <div>
+                <img src="images/shook_img/brandingimage.png" alt="colors and logos">
+            </div>
         </div>
     </section>
 
     <section class="user-testing">
-        <h3>User Testing</h3>
-        <p>Preference testing informed my decisions to use colors to highlight different organizations</p>
+        <div class="container">
+            <h3>User Testing</h3>
+            <p>Preference testing informed my decisions to use colors to highlight different organizations</p>
+        </div>
+        <div class="container one-half">
+            <img src="images/shook_img/usertestingMain.png" alt="user testing of main screen">
+        </div>
+        <div>
+            <p>The mockup started with a simple card.  After user testing, I incorporated bright colored outlines that make the design more approachable.</p>
+        </div>
+        <div class="container one-half">
+            <img src="images/shook_img/usertestingDiscover.png" alt="user testing of discover organizations screen">
+        </div>
+        <div>
+            <p>The discover organizations page became more simplified with user testing and incorporated the bright colors that are tied to the type of organization; political, healthcare, educations, etc</p>
+        </div>
     </section>
 
     <section class="mockups">
+        <div class="container">
+            <h3>Mockups</h3>
+            <img src="images/shook_img/mockup1.png" alt="Mockup of Load Screen">
+            <img src="images/shook_img/mockup2.png" alt="Mockup of Sign Up Screen">
+            <img src="images/shook_img/mockup3.png" alt="Mockup of Sign In Screen">
+            <img src="images/shook_img/mockup4.png" alt="Mockup Screen">
+            <img src="images/shook_img/mockup5.png" alt="Mockup Screen">
+        </div>
     </section>
 
-    <section class="summary">
+    <section class="end">
+        <div class="container">
+            <img src="images/shook_img/OrgPageEvolution.png" alt="Organization screen design evolution">
+            <a href="#" class="btn view-prototype">VIEW PROTOTYPE</a>
+        </div>
     </section>
 
 </main>
