@@ -21,7 +21,7 @@ h2 {
   font-size: 48px;
 }
 p {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 /* GRID */
@@ -87,7 +87,7 @@ header nav ul > li > a {
 }
 header .logo img {
   display: block;
-  height: 115px;
+  height: 70px;
 }
 
 header .hero {
@@ -106,6 +106,16 @@ header .hero {
 }
 .project .one-half {
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project .one-half h2 {
+  margin: 0;
+}
+.project .one-half p {
+  margin-top: 0;
 }
 .project-box {
   background: #FFFFFF;
@@ -130,7 +140,7 @@ header .hero {
   padding: 5px 60px;
   background: #FFA412;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
 }
 

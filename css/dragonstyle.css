@@ -77,7 +77,7 @@ td {
 
 /* Hero */
 .hero {
-  background: #FFFC00;
+  background-image: linear-gradient(72deg, #7b309f 0%, #72b1fd 47%, #66cb5a 100%);
   text-align: center;
   position: relative;
   z-index: 10;
@@ -138,7 +138,7 @@ td {
 /* Survey highlights */
 
 .survey-highlights {
-  background: #5AD8D8;
+  background: #72B1FD;
   position: relative;
   z-index: 10;
   margin-bottom: 8em;
@@ -396,7 +396,7 @@ ul.mockups li img {
   color: #FFFFFF;
   text-decoration: none;
   padding: 5px 60px;
-  background: #F95ACC;
+  background: #7AD075;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
   font-size: 1.5em;
   font-weight: 300;
