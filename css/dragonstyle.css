@@ -125,7 +125,7 @@ td {
 }
 .summary h2 {
   transform: rotate(-4deg);
-  color: #5AD8D8;
+  color: #72b1fd;
   margin-top: 1em;
   padding-bottom: .75em;
 }
@@ -158,7 +158,7 @@ td {
 }
 .survey-highlights h2 {
   transform: rotate(4deg);
-  color: #FFFC00;
+  color: #66cb5a;
   margin-top: -.5em;
 }
 .survey-highlights h3 {
@@ -178,7 +178,7 @@ td {
   margin-top: 1em;
 }
 .highlight {
-  color: #FFFC00;
+  color: #7b309f;
   font-weight: 400;
   font-size: 1.75em;
 }
@@ -215,7 +215,7 @@ td .highlight {
 }
 /* user-stories */
 .user-stories {
-  background: #FFFC00;
+  background: #66cb5a;
   position: relative;
   z-index: 10;
 }
