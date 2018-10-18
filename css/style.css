@@ -196,6 +196,16 @@ section#shook p {
   line-height: 0;
 }
 
+section#shook h2 {
+  margin: 0;
+}
+
+section#shook p {
+  padding: 0 1em;
+  margin-bottom: 2em;
+}
+
+
 /* about me grid */
 .aboutme {
   margin: 6em;
@@ -254,13 +264,10 @@ section#shook p {
   line-height: 1.25em;
 }
 
-section#shook h2 {
-  margin: 0;
-}
-
-section#shook p {
-  padding: 0 1em;
-  margin-bottom: 2em;
+i.insert {
+  cursor: pointer;
+  color: #EB57F7;
+  font-weight: bold;
 }
 
 /* Button */
